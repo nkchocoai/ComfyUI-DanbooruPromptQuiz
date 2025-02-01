@@ -1,0 +1,11 @@
+# DanbooruPromptQuiz
+- TIPOやTaggerなどで出力されたプロンプトから生成された画像を見てプロンプトを推測するゲームをするためのノードです。
+- This node is for playing the game of guessing prompts by looking at images generated from prompts output by TIPO, Tagger, etc.
+- 推測したプロンプトとTIPOやTaggerなどで出力されたプロンプトのタグを比較し、以下を出力します。
+  - 正解率
+  - 適合率
+  - 再現率
+  - F値
+  - 正解したタグ (True Positive)
+  - 誤って推測したタグ (False Positive)
+  - 推測されていないタグ (False Negative)
